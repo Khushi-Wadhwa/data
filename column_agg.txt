@@ -1,0 +1,45 @@
+log_time - last
+log_level - last
+contract - last
+symbol - last
+opt_type - last
+strike -last
+expiry - last
+lot - last
+O - first
+H - max
+L - min
+C - last
+lpt- last
+new - sum
+bnew -sum
+snew - sum
+modify - sum
+bmodify - sum
+smodify - sum
+cancel - sum
+bcancel -sum
+scancel - sum
+trade - sum
+bmt -last
+smt - last
+total_vwap - 
+vwap - sum(vwap*tq)/(sum(tq))
+
+bvwap - sum(bvwap*btq)/(sum(btq))
+svwap - sum(svwap*btq)/(sum(stq))
+twap -  sum(twap)/time_period_in_minutes
+
+total_tq - last
+tq - sum
+btq - sum
+stq - sum
+oi - sum
+total_oi - last
+dte - last
+bslp - last
+sslp - lasg
+bp1, bq1, sp1, sq1 - last
+atm1, atm2, cp_fut, iv1, iv2, gamma, delta - last
+
+additional column -: index - last
